@@ -1,0 +1,39 @@
+
+
+
+body {
+    background-color: rgb(34, 34, 34);
+    color: rgb(111, 0, 170);
+    font-family: "Racing Sans One", sans-serif;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    margin: 0;
+}
+
+button{
+    background-color:rgb(140, 140, 140);
+    color: rgb(66, 0, 101);
+    font-family: "Racing Sans One", sans-serif;
+    font-size: 15px;
+
+}
+
+.passo {
+    display: none;
+}
+
+.passo.ativo {
+    display:block;
+}
+
+main {
+    text-align: center;
+    max-width: 90%;
+}
+
+img {
+    max-width: 90%;
+}
